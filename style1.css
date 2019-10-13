@@ -1,0 +1,25 @@
+.ordinary {padding-left: 20px}
+
+
+.spisok2 li{
+    list-style-type: none; /*Убираем для каждой li маркер "точка" по умолчанию*/
+}
+
+.spisok2 li:before{
+    content: '§';  /*Задаем свой маркер для списка*/
+}
+.spisok3 li{
+    list-style-type: none;
+}
+
+.spisok3 li:before{
+    content: "$";
+}
+
+.spisok1 li{
+    list-style-type: none;
+}
+
+.spisok1 li:before{
+    content: "%";
+}
